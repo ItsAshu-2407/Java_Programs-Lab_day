@@ -16,6 +16,7 @@ public static void main(String args[])
 		ar[i] = sc.nextInt();							//Here we are taking input of array elements from user.  				
 	}
 	addArray(size,ar);
+	sc.close();
 }
 public static void addArray(int len, int arr[])
 {
