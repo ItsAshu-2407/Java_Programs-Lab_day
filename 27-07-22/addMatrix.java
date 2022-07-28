@@ -32,8 +32,7 @@ public static void main(String args[])
 		}
 	}
 	obj.addition(size,len,array1,array2,array3);
-	sc.close();     									 //Both the objects are closed.
-	obj.close();
+	sc.close();     									 //Scanner object is closed.
 }
 public void addition(int size, int len, int array1[][], int array2[][], int array3[][])
 {
